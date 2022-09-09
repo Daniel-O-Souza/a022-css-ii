@@ -1,6 +1,7 @@
 header{
     border-bottom: 1px solid black;
     text-align: center;
+    margin: auto;
   }
   
   main{
@@ -10,6 +11,10 @@ header{
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 0;
+    top: 25vh;
+    text-align: center;
   }
   
   footer{
@@ -26,19 +31,21 @@ header{
     font-family: serif;
   }
 
-  header{
-    margin: auto;
-  }
 
   section p {
     margin: auto;
   }
 
-  aside{
-    position: fixed;
-    right: 0;
-    top: 25vh;
+
+  button:active{
+    background-color: white;
+    color: black;
   }
 
-  
+  aside:active{
+    background-color: black;
+    color: white;
+  }
+
+
   
